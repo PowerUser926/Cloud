@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudBudget</title>
+    <link rel="icon" href="./img/logo.svg">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -42,10 +43,10 @@
             </div>
         </header>
         <main class="main">
-            <div class="video_section">
+            <div class="video_section" id="overview">
                 <div class="container">
                     <div class="text">
-                        <h2>Easy to Use Cloud Budget Management Software</h2>
+                        <h2 class="section_title">Easy to Use Cloud Budget Management Software</h2>
                         <p>Our software is made so you can access 
                             and manage your budget and expenses 
                             online at any time from any device. It 
@@ -63,9 +64,9 @@
                     </div>
                 </div>
             </div>
-            <div class="features_section">
+            <div class="features_section" id="features">
                 <div class="container">
-                    <h2>Features</h2>
+                    <h2 class="section_title">Features</h2>
                     <div class="features">
                         <div class="features-item">
                             <img src="./img/feature1.png" alt="Feature">
@@ -94,9 +95,9 @@
                     </div>
                 </div>
             </div>
-            <div class="technology_section">
+            <div class="technology_section" id="technology">
                 <div class="container">
-                    <h2>Technology</h2>
+                    <h2 class="section_title">Technology</h2>
                     <div class="technologies">
                         <div class="technologies-item cloud">
                             <img src="./img/cloud.svg" alt="Cloud">
@@ -124,7 +125,7 @@
             <div class="appDownload_section">
                 <div class="container">
                     <div class="app-description">
-                        <h2>Stay focused on saving money</h2>
+                        <h2 class="section_title">Stay focused on saving money</h2>
                         <p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
                         <div class="download_links">
                             <a href="#"><img src="./img/googleStore.svg" alt="Google Store"></a>
@@ -135,8 +136,70 @@
                     <div class="slider"></div>
                 </div>
             </div>
-            <div></div>
+            <div class="contact_section">
+                <div class="container">
+                    <div class="text">
+                        <h2 class="section_title">Contact</h2>
+                        <p>Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+                    </div>
+                    <div class="form">
+                        <form action="#">
+                            <div>
+                                <input type="text" placeholder="First Name" id="firstName">
+                                <input type="text" placeholder="Last Name" id="lastName">
+                                <input type="text" placeholder="Phone Number" id="phoneNumber">
+                                <select id="selectService">
+                                    <option value="0">Select Service</option>
+                                    <option value="1">Service 1</option>
+                                    <option value="2">Service 2</option>
+                                    <option value="3">Service 3</option>
+                                </select>
+                            </div>
+                            <button class="submit_btn" type="submit">Submit now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_top">
+                    <div class="address">
+                        <h3>Address</h3>
+                        <p>Pipang Ltd, Griva Digeni,<br>
+                            81-83 Jacovides Tower, 1st Floor <br>
+                            1090 Picosia USA</p>
+                    </div>
+                    <div class="services">
+                        <h3>Services</h3>
+                        <div class="services-links">
+                            <a href="#overview">Overview</a>
+                            <a href="#features">Features</a>
+                            <a href="#technology">Technology</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privecy</a>
+                        </div>
+                    </div>
+                    <div class="getTouch">
+                        <h3>Get in Touch</h3>
+                        <p>info@cloudbudget.com</p>
+                        <p>+1 844-721-7120</p>
+                        <div class="social_links">
+                            <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+                            <a href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                    <div class="support">
+                        <h3>We Support</h3>
+                        <img src="./img/pay.png" alt="Pay">
+                    </div>
+                </div>
+                <div class="copy">
+                    <p>Copyright 2018 CloudBudget</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="./js/jquery-3.6.0.min.js"></script>
